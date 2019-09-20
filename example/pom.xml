@@ -67,6 +67,13 @@
             <artifactId>graphql-java-tools</artifactId>
             <version>${graphql-java-tools.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.graphql-java-kickstart</groupId>
+            <artifactId>graphql-spring-boot-starter-test</artifactId>
+            <version>${graphql-spring-boot-starter.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

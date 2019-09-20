@@ -1,0 +1,10 @@
+{
+  character(id: "1000") {
+    id
+    name
+
+    ... on Human {
+      homePlanet
+    }
+  }
+}
